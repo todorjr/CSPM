@@ -1,0 +1,80 @@
+/* Adding css style to the nav bar */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Bebas Neue", cursive;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+}
+li {
+  list-style: none;
+  margin: 1rem;
+}
+a {
+  text-decoration: none;
+}
+.club {
+  font-size: 20px;
+  margin: 10px;
+}
+.main_page h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.sub_header {
+  font-size: 30px;
+  text-align: center;
+}
+footer {
+  margin: 10px;
+}
+h4 {
+  text-align: center;
+  margin: 10px;
+}
+.sponsors {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+  padding-bottom: 10px;
+}
+.sponsors img {
+  width: 130px;
+  height: 130px;
+}
+/*CSS Contact page */
+.contact {
+  margin: auto;
+  width: 1024px;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.right_page,
+.left_page {
+  margin: 20px;
+}
+.header_contact {
+  text-align: center;
+  font-size: 50px;
+}
+.left_page {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
